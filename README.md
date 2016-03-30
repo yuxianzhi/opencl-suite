@@ -1,6 +1,6 @@
-# opencl-suite
-Welcome to use the suite tool to help build your opencl program.
-If you want to install the tool, you should make you have the basic gcc and g++ compiler, and you need to have the ioc64 tool(an opencl kernel program compiler, in Intel opencl SDK, )  
+# opencl-suite<br>
+Welcome to use the suite tool to help build your opencl program.\<br>
+If you want to install the tool, you should make you have the basic gcc and g++ compiler, and you need to have the ioc64 tool(an opencl kernel program compiler, in Intel opencl SDK, )  <br>
 ##Intoduction:
   ###openCLAllCompiler : an openCL kernel compiler that produces all platform/device binary code.
                       USAGE: openCLAllCompiler [SOURCE]
