@@ -41,14 +41,16 @@ If you want to install the tool, you should make you have the basic gcc and g++ 
                       an vector add example that build kernel from prebuild spir kernel code.   
                       source code: src/vec_add_spir.c src/vec_add.cl 
 #####vec_add.bin             : 
-                      prebuild binary vector add kernel that use Intel ioc64 tool .
+                      prebuild binary vector add kernel that use Intel ioc64 tool.
 #####vec_add.spir32          : 
-                      prebuild spir32 vector add kernel that use Intel ioc64 tool .
+                      prebuild spir32 vector add kernel that use Intel ioc64 tool.
 #####vec_add.spir64          : 
-                      prebuild spir64 vector add kernel that use Intel ioc64 tool .
+                      prebuild spir64 vector add kernel that use Intel ioc64 tool.
 #####openCL_E_linkTwoKernel  : 
                       an example that link two kernel file into one kernel.      
                       source code: src/fma.c src/fma.cl src/elem.cl
+#####doc/*  : 
+                      some ptogramming guide.
   
                       
 
