@@ -50,7 +50,7 @@ If you want to install the tool, you should make you have the basic gcc and g++ 
                       an example that link two kernel file into one kernel.      
                       source code: src/fma.c src/fma.cl src/elem.cl
 #####doc/*  : 
-                      some ptogramming guide.
+                      some programming guide.
   
                       
 
