@@ -291,7 +291,7 @@ void compile_all(const char *src, size_t src_size) {
 int main(int argc, char **argv) {
   // Check the command line option
   if (argc < 2) {
-    fprintf(stderr, "USAGE: cl-compile [SOURCE]\n");
+    fprintf(stderr, "USAGE: openCLAllCompiler [SOURCE]\n");
     exit(EXIT_FAILURE);
   }
 
