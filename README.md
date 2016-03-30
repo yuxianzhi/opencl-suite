@@ -1,5 +1,5 @@
 # opencl-suite<br>
-Welcome to use the suite tool to help build your opencl program.\<br>
+Welcome to use the suite tool to help build your opencl program.<br>
 If you want to install the tool, you should make you have the basic gcc and g++ compiler, and you need to have the ioc64 tool(an opencl kernel program compiler, in Intel opencl SDK, )  <br>
 ##Intoduction:
   ###openCLAllCompiler : an openCL kernel compiler that produces all platform/device binary code.
@@ -42,6 +42,6 @@ If you want to install the tool, you should make you have the basic gcc and g++ 
 
 
 ##Support:
-You can get Intel openCL support from this(https://software.intel.com/en-us/intel-opencl)
-If you are interested openCL development on Nvidia GPU. try this(https://developer.nvidia.com/opencl)
-You can get AMD openCL help from this(http://developer.amd.com/tools-and-sdks/opencl-zone/)
+You can get Intel openCL support from this(https://software.intel.com/en-us/intel-opencl)<br>
+If you are interested openCL development on Nvidia GPU. try this(https://developer.nvidia.com/opencl)<br>
+You can get AMD openCL help from this(http://developer.amd.com/tools-and-sdks/opencl-zone/)<br>
