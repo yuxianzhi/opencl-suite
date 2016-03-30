@@ -2,7 +2,7 @@
 Welcome to use the suite tool to help build your opencl program.<br>
 If you want to install the tool, you should make you have the basic gcc and g++ compiler, and you need to have the ioc64 tool(an opencl kernel program compiler, in Intel opencl SDK, )  <br> 
 ##Intoduction:
-  ###openCLAllCompiler : an openCL kernel compiler that produces all platform/device binary code. <br> 
+###  openCLAllCompiler : an openCL kernel compiler that produces all platform/device binary code. <br> 
                       USAGE: openCLAllCompiler [SOURCE]  <br>
                       source code: src/cl-compi <br>
   ###openCLCompiler    : an openCL kernel compiler that help debug kernel code syntax error. <br>
