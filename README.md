@@ -31,6 +31,27 @@ If you want to install the tool, you should make you have the basic gcc and g++ 
                                             In case of multiple matches, the first matching
                                             platform is selected.
                       source code: src/capsbasic.cpp
+#####openCLReverseCompiler : 
+                      compile openCL source kernel and save openCL binary kernel to file.
+                      Usage: ./openCLReverseCompiler [-h | --help | fileName platformType deviceType ] 
+                            -h, --help     Show this help message and exit.
+                            fileName       The file to be compiled.
+                            platformType   The platform want to compile code. The example is
+                                            0 : Intel 
+                                            1 : NVIDIA
+                                            2 : AMD 
+                            deviceType     The device want to run the code. The example is
+                                            0 : CL_DEVICE_TYPE_CPU 
+                                            1 : CL_DEVICE_TYPE_GPU
+                                            2 : CL_DEVICE_TYPE_ACCELERATOR 
+                                            3 : CL_DEVICE_TYPE_DEFAULT
+                                            4 : CL_DEVICE_TYPE_ALL
+                      source code: src/cl-reverse-compile.cpp src/tool.cpp src/tool.h
+#####reverseCompile.sh : 
+                      a tool that can use objdump disassembly openCL binary kernel.   
+                      Usage: sh reverseCompile.sh file1 file2 
+                            file1 : the binary kernel file (created by openCLReverseCompiler)
+                            file2 : the output file
 #####openCL_E_vec_add_source : 
                       an vector add example that build kernel from source kernel code.    
                       source code: src/vec_add_source.c src/vec_add.cl
