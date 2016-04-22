@@ -11,10 +11,10 @@ using namespace std;
 
 extern int deviceTypeNum;
 extern cl_device_type deviceTypeList[];
-extern char* deviceTypeName[];
+extern const char* deviceTypeName[];
 
 extern int platformTypeNum;
-extern char* platformTypeName[];
+extern const char* platformTypeName[];
 
 /** convert the kernel file into a string */
 int convertToString(const char *filename, std::string& s);

@@ -10,10 +10,10 @@
 
 int deviceTypeNum = 5;
 cl_device_type deviceTypeList[5] = {CL_DEVICE_TYPE_CPU, CL_DEVICE_TYPE_GPU, CL_DEVICE_TYPE_ACCELERATOR, CL_DEVICE_TYPE_DEFAULT, CL_DEVICE_TYPE_ALL};
-char* deviceTypeName[5] = {"CPU", "GPU", "ACCELERATOR(MIC/DSP)", "DEFAULT", "ALL"};
+const char* deviceTypeName[5] = {"CPU", "GPU", "ACCELERATOR(MIC DSP)", "DEFAULT", "ALL"};
 
 int platformTypeNum = 3;
-char* platformTypeName[3]={"Intel(R) OpenCL", "NVIDIA CUDA", "ATI Stream"};
+const char* platformTypeName[3]={"Intel(R) OpenCL", "NVIDIA CUDA", "ATI Stream"};
 
  /** convert the kernel file into a string */
  int convertToString(const char *filename, std::string& s)

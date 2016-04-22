@@ -1,9 +1,9 @@
 CPP = g++
-CC = gcc
+CC  = gcc
 CCFLAGS += -O3 -DCL_USE_DEPRECATED_OPENCL_2_0_APIS=1
 LDFLAGS += -lOpenCL
 
-OUT := openCLCompiler openCLInfo openCLAllCompiler \
+OUT := openCLCompiler openCLInfo openCLAllCompiler openCLReverseCompiler\
 		openCL_E_linkTwoKernel \
 		openCL_E_vec_add_source openCL_E_vec_add_binary openCL_E_vec_add_spir vec_add.bin vec_add.spir32 vec_add.spir64
 
@@ -17,6 +17,9 @@ openCLCompiler: src/build.cpp src/tool.cpp
 
 openCLAllCompiler: src/cl-compile.c
 	$(CC) $(CCFLAGS)  -o openCLAllCompiler src/cl-compile.c $(LDFLAGS)
+
+openCLReverseCompiler: src/cl-reverse-compile.cpp src/tool.cpp
+	$(CPP) $(CCFLAGS)  -o openCLReverseCompiler src/cl-reverse-compile.cpp src/tool.cpp $(LDFLAGS)
 
 openCL_E_linkTwoKernel: src/fma.c
 	$(CC) $(CCFLAGS)  -o openCL_E_linkTwoKernel src/fma.c $(LDFLAGS)
