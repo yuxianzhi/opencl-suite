@@ -4,16 +4,16 @@ Welcome to use the openCL suite tool to help build your opencl program.
 
 If you want to install the tool, you should make you have the basic gcc and g++ compiler, and you need to have the ioc64 tool(an opencl kernel program compiler, in Intel opencl SDK) 
 
-#### Intoduction:
+#### Intoduction
 
-##### openCLAllCompiler : 
+##### openCLAllCompiler 
                       an openCL kernel compiler that produces all platform/device binary code.
                       
                       USAGE: openCLAllCompiler [SOURCE] 
                       
                       source code: src/cl-compile.c
 
-##### openCLCompiler    : 
+##### openCLCompiler    
                       an openCL kernel compiler that help debug kernel code syntax error.
                       Usage: ./openCLCompiler [-h | --help | fileName platformType deviceType ] 
                             -h, --help     Show this help message and exit.
@@ -30,7 +30,7 @@ If you want to install the tool, you should make you have the basic gcc and g++ 
                                             4 : CL_DEVICE_TYPE_ALL
                       source code: src/build.cpp src/tool.cpp src/tool.h
 
-##### openCLInfo        : 
+##### openCLInfo        
                       an program that can get platform/device information.
                       Usage: ./openCLInfo [-h | --help | <PLATFORM>]
                               -h, --help    Show this help message and exit.
@@ -40,7 +40,7 @@ If you want to install the tool, you should make you have the basic gcc and g++ 
                                             platform is selected.
                       source code: src/capsbasic.cpp
 
-##### openCLReverseCompiler : 
+##### openCLReverseCompiler 
                       compile openCL source kernel and save openCL binary kernel to file.
                       Usage: ./openCLReverseCompiler [-h | --help | fileName platformType deviceType ] 
                             -h, --help     Show this help message and exit.
@@ -57,38 +57,38 @@ If you want to install the tool, you should make you have the basic gcc and g++ 
                                             4 : CL_DEVICE_TYPE_ALL
                       source code: src/cl-reverse-compile.cpp src/tool.cpp src/tool.h
 
-##### reverseCompile.sh : 
+##### reverseCompile.sh 
                       a tool that can use objdump disassembly openCL binary kernel.   
                       Usage: sh reverseCompile.sh file1 file2 
                             file1 : the binary kernel file (created by openCLReverseCompiler)
                             file2 : the output file
 
-##### openCL_E_vec_add_source : 
+##### openCL_E_vec_add_source 
                       an vector add example that build kernel from source kernel code.    
                       source code: src/vec_add_source.c src/vec_add.cl
 
-##### openCL_E_vec_add_binary : 
+##### openCL_E_vec_add_binary 
                       an vector add example that build kernel from prebuild binary kernel code.   
                       source code: src/vec_add_binary.c src/vec_add.cl 
 
-##### openCL_E_vec_add_spir   :
+##### openCL_E_vec_add_spir  
                       an vector add example that build kernel from prebuild spir kernel code.   
                       source code: src/vec_add_spir.c src/vec_add.cl 
 
-##### vec_add.bin             : 
+##### vec_add.bin             
                       prebuild binary vector add kernel that use Intel ioc64 tool.
 
-##### vec_add.spir32          : 
+##### vec_add.spir32          
                       prebuild spir32 vector add kernel that use Intel ioc64 tool.
 
-##### vec_add.spir64          : 
+##### vec_add.spir64          
                       prebuild spir64 vector add kernel that use Intel ioc64 tool.
 
-##### openCL_E_linkTwoKernel  : 
-
+##### openCL_E_linkTwoKernel  
                       an example that link two kernel file into one kernel.      
                       source code: src/fma.c src/fma.cl src/elem.cl
-##### doc/*  : 
+
+##### doc   
                       some programming guide.
   
                       
@@ -96,7 +96,7 @@ If you want to install the tool, you should make you have the basic gcc and g++ 
 
 
 
-#### Support:
+#### Support
 
 You can get Intel openCL support from [this](https://software.intel.com/en-us/intel-opencl)
 
