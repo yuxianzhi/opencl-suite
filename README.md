@@ -98,9 +98,9 @@ If you want to install the tool, you should make you have the basic gcc and g++ 
 
 #### Support:
 
-You can get Intel openCL support from this(https://software.intel.com/en-us/intel-opencl)
+You can get Intel openCL support from [this](https://software.intel.com/en-us/intel-opencl)
 
-If you are interested openCL development on Nvidia GPU. try this(https://developer.nvidia.com/opencl)
+If you are interested openCL development on Nvidia GPU. try [this](https://developer.nvidia.com/opencl)
 
-You can get AMD openCL help from this(http://developer.amd.com/tools-and-sdks/opencl-zone/)
+You can get AMD openCL help from [this](http://developer.amd.com/tools-and-sdks/opencl-zone/)
 
